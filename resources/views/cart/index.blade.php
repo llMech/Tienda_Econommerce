@@ -38,6 +38,6 @@
 
         <h3>Total: ${{ number_format($total, 2) }}</h3>
         
-{{--         <a href="{{ route('checkout.index') }}">Proceder al pago</a> --}}
+        <a href="{{ route('checkout.index') }}">Proceder al pago</a>
     @endif
 @endsection
